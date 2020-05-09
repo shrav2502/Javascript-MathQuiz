@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">Math Quiz</div>
+      <div id="instructions">
+        <p>* The quiz consists of 10 questions</p>
+        <p>* Each questions carry one mark</p>
+        <p>* Each question has to be answered within 15 seconds</p>
+        <p>
+          * If answered within 15 seconds you can go the next question by
+          pressing the next button
+        </p>
+        <p>* The answer should be typed in the right hand side input box</p>
+      </div>
+      <div id="game" class="hide"></div>
+      <input type="text" id="answerBox" class="hide" />
+      <div id="timer" class="hide"></div>
+      <button id="start">Start</button>
+      <button id="next" class="hide">Next</button>
+      <button id="results" class="hide">Get Results</button>
+      <button id="stop" class="hide">Stop the game</button>
+      <div id="scoreCard" class="hide"></div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
