@@ -1,0 +1,127 @@
+#timer {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: beige;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 35px;
+  border: 3px solid gold;
+}
+.container {
+  height: 600px;
+  width: 700px;
+  border: 3px solid;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #fef7c9;
+}
+#answerBox {
+  margin-top: 230px;
+  position: absolute;
+  margin-left: 430px;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid;
+}
+#game {
+  height: 55px;
+  width: 150px;
+  position: absolute;
+  border: 1px solid;
+  margin-top: 230px;
+  margin-left: 100px;
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+  border: 2px solid;
+  background-color: #93f5f6;
+}
+#start {
+  margin-top: 500px;
+  margin-left: 250px;
+  height: 50px;
+  width: 30%;
+  position: absolute;
+  border: 5px solid black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#next {
+  margin-top: 350px;
+  margin-left: 280px;
+  height: 50px;
+  width: 20%;
+  position: absolute;
+  cursor: pointer;
+  border: 3px solid black;
+  font-size: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+#stop {
+  margin-top: 530px;
+  position: absolute;
+  margin-left: 530px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid black;
+  font-size: 20px;
+}
+
+#results {
+  margin-top: 530px;
+  position: absolute;
+  margin-left: 300px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid black;
+  font-size: 20px;
+}
+
+#instructions {
+  height: 250px;
+  width: 500px;
+  border: 2px solid gold;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 170px;
+  font-size: 20px;
+  padding: 7px;
+  color: #0a780d;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#header {
+  height: 80px;
+  width: 250px;
+  border: 2px solid gold;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 220px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+  background-color: beige;
+  font-weight: 900;
+}
+#scoreCard {
+  height: 100px;
+  width: 300px;
+  border: 1px solid;
+  margin-top: 200px;
+  margin-left: 200px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 35px;
+}
